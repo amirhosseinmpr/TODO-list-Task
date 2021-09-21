@@ -1,0 +1,79 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countainer {
+  width: 37%;
+  height: 90%;
+  box-shadow: 30px 30px 60px gray;
+  border: 1px solid rgb(190, 190, 190);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  font-size: 100px;
+  font-family: system-ui;
+  color: #dacbee;
+}
+
+.input {
+  width: 50%;
+  height: 13%;
+  border-radius: 5px;
+  border: 1px solid rgb(190, 190, 190);
+  box-shadow: 0 0 10px 0 rgb(190, 190, 190);
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.input:focus {
+  border: 1px solid #dacbee;
+  outline: none;
+  box-shadow: 0 0 10px 0#dacbee;
+}
+
+.task {
+  width: 62%;
+  height: 32%;
+  text-align: left;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 40px;
+  overflow: auto;
+}
+
+.task::-webkit-scrollbar {
+  width: 10px;
+}
+
+.task ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.task::-webkit-scrollbar-thumb {
+  background: #d7c5eb;
+}
+.task::-webkit-scrollbar-thumb:hover {
+  background: #c49ef0;
+}
+
+.task li {
+  border: 1px solid gray;
+  text-align-last: center;
+  font-size: 20px;
+}
+
+.task li:hover {
+  cursor: pointer;
+}
+
+.Footer {
+  color: #080808;
+  opacity: 0.5;
+}
